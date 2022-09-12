@@ -1,9 +1,9 @@
 let inputNumber;
-inputNumber = +prompt('Введите число');
+inputNumber = +prompt('Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ');
 if (typeof inputNumber !== "number" || isNaN(inputNumber)) {
-	console.log("Упс, кажется, вы ошиблись")
+	console.log("РЈРїСЃ, РєР°Р¶РµС‚СЃСЏ, РІС‹ РѕС€РёР±Р»РёСЃСЊ")
 } else if (inputNumber % 2 === 0) {
-	console.log("Число четное")
+	console.log("Р§РёСЃР»Рѕ С‡РµС‚РЅРѕРµ")
 } else {
-	console.log("Число нечетное")
+	console.log("Р§РёСЃР»Рѕ РЅРµС‡РµС‚РЅРѕРµ")
 }

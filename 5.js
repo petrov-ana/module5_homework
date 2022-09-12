@@ -1,5 +1,5 @@
-let array = ['красный', 'желтый', 'голубой', 1, 3, 4, 5, true];
-console.log('Кол-во элементов в массиве: ' + array.length);
+let array = ['РєСЂР°СЃРЅС‹Р№', 'Р¶РµР»С‚С‹Р№', 'РіРѕР»СѓР±РѕР№', 1, 3, 4, 5, true];
+console.log('РљРѕР»-РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РІ РјР°СЃСЃРёРІРµ: ' + array.length);
 for (var i in array) {
 	console.log(array[i])
 }

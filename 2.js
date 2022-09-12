@@ -1,14 +1,14 @@
 let x = true;
 switch (typeof x) {
 	case "number":
-		console.log(x + " — число");
+		console.log(x + " вЂ” С‡РёСЃР»Рѕ");
 		break;
 	case "string":
-		console.log(x + " — строка");
+		console.log(x + " вЂ” СЃС‚СЂРѕРєР°");
 		break;
 	case "boolean":
-		console.log(x + " — логический тип");
+		console.log(x + " вЂ” Р»РѕРіРёС‡РµСЃРєРёР№ С‚РёРї");
 		break;
 	default:
-		console.log(`Тип ${typeof x} не определен`);
+		console.log(`РўРёРї ${typeof x} РЅРµ РѕРїСЂРµРґРµР»РµРЅ`);
 }

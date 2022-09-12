@@ -7,4 +7,4 @@ for (let i = 0; i <= arr.length; i++) {
 		  arr[i] == 0 ? zeroCount++ : arr[i] % 2 == 0 ? evenCount++ : oddCount++;
 	}
 }
-console.log(`×åòíûõ: ${evenCount}, Íå÷åòíûõ: ${oddCount}, Íîëåé: ${zeroCount}`);
+console.log(`Ð§ÐµÑ‚Ð½Ñ‹Ñ…: ${evenCount}, ÐÐµÑ‡ÐµÑ‚Ð½Ñ‹Ñ…: ${oddCount}, ÐÐ¾Ð»ÐµÐ¹: ${zeroCount}`);

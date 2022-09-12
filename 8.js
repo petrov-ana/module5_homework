@@ -10,6 +10,6 @@ let fruits = new Map([
 
 for (let elem of fruits) {
 
-   console.log(`Ключ = ${elem[0]}, Значение = ${elem[1]}`);
+   console.log(`РљР»СЋС‡ = ${elem[0]}, Р—РЅР°С‡РµРЅРёРµ = ${elem[1]}`);
 
 }
